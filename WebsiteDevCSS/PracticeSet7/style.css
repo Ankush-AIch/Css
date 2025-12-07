@@ -1,0 +1,52 @@
+div {
+    margin: 10px 5px 5px 5px;
+}
+
+.one {
+    background-color: rgb(26, 117, 82);
+    height: 100px;
+    width: 100px;
+    
+}
+
+.two {
+    background-color: rgb(95, 14, 28);
+    height: 100px;
+    width: 100px;
+}
+
+.three {
+    background-color: rgb(179, 63, 63);
+    height: 100px;
+    width: 100px;
+}
+
+.four {
+    background-color: rgb(58, 58, 211);
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width : 300px) {
+    .one {
+        background-color: green;
+    }
+}
+
+@media (min-width : 300px) and (max-width : 400px) {
+    .two {
+        background-color: pink;
+    }
+}
+
+@media (min-width : 400px) and (max-width : 600px) {
+    .three {
+        background-color: red;
+    }
+}
+
+@media (min-width : 600px) {
+    .four {
+        background-color: blue;
+    }
+}

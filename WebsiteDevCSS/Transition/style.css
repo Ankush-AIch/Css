@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn { 
+    background-color: aqua;
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    color: grey;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}

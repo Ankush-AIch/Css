@@ -1,0 +1,41 @@
+p {
+    text-transform: capitalize;
+}
+
+button {
+    height: 35px;
+}
+
+.not {
+    background-color: aquamarine;
+    height: 100px;
+    width: 250px;
+    border: 3px solid aqua;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+.inner1 {
+    background-color: cadetblue;
+    height: 200px;
+    margin-bottom: 25px;
+    width: 200px;
+    border-radius: 10px;
+    padding-left: 150px;
+}
+
+.inner2 {
+    background-color: greenyellow;
+    height: 200px;
+    margin-bottom: 25px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.inner3 {
+    background-color: rebeccapurple;
+    height: 200px;
+    margin-bottom: 25px;
+    width: 200px;
+}

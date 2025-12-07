@@ -1,0 +1,35 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+.div1 {
+    position: relative;
+    left: 150px;
+    background-color: aqua;
+    z-index: 2;
+}
+
+.div2 {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    background-color: blue;
+    z-index: 10;
+}
+
+.div3 {
+    background-color: brown;
+    position: relative;
+    top: 100px;
+    z-index: -1;
+    
+}
+
+.div4 {
+    background-color: violet;
+    position: fixed;
+    top: 0;
+}

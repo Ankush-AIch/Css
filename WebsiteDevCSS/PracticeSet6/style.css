@@ -1,0 +1,41 @@
+.navbar {
+    width: 100%;
+    background-color: black;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
+.outer {
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

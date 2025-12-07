@@ -1,0 +1,17 @@
+.div1 {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+
+}
+
+.div2 {
+    background-color: aqua;
+    height: 50%;
+    width: 3rem;
+   
+
+}
